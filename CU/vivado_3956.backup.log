@@ -1,0 +1,244 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Apr 17 17:24:44 2023
+# Process ID: 3956
+# Current directory: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25584 C:\Users\vamsi\OneDrive\Desktop\VHDL\Project2\CU\CU.xpr
+# Log file: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/vivado.log
+# Journal file: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU\vivado.jou
+# Running On: Vamsi, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16832 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1689.273 ; gain = 257.594
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Cu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Cu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Cu_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cu_tb_behav xil_defaultlib.Cu_tb -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cu_tb_behav xil_defaultlib.Cu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Cu_tb_behav -key {Behavioral:sim_1:Functional:Cu_tb} -tclbatch {Cu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Cu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 100 ns : File "C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sim_1/new/Cu_tb.vhd" Line 61
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Cu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1771.703 ; gain = 18.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: CU
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 2714.980 ; gain = 423.422
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CU' [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'D_flipflop' [C:/Users/vamsi/OneDrive/Desktop/VHDL/D_flipflop_16/D_flipflop_16.srcs/sources_1/new/D_flipflop.vhd:41]
+WARNING: [Synth 8-614] signal 'curr_val' is read in the process but is not in the sensitivity list [C:/Users/vamsi/OneDrive/Desktop/VHDL/D_flipflop_16/D_flipflop_16.srcs/sources_1/new/D_flipflop.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'D_flipflop' (0#1) [C:/Users/vamsi/OneDrive/Desktop/VHDL/D_flipflop_16/D_flipflop_16.srcs/sources_1/new/D_flipflop.vhd:41]
+INFO: [Synth 8-226] default block is never used [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'CU' (0#1) [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd:48]
+WARNING: [Synth 8-7129] Port C[2] in module CU is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2790.250 ; gain = 498.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2808.145 ; gain = 516.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2808.145 ; gain = 516.586
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2808.145 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2891.949 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 2912.195 ; gain = 620.637
+9 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 2912.195 ; gain = 1140.492
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Cu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Cu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Cu_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CU'
+ERROR: [VRFC 10-8820] cannot read from 'out' object 'y'; use 'buffer' or 'inout' instead [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd:55]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd:48]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Cu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Cu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Cu_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vamsi/OneDrive/Desktop/VHDL/D_flipflop_16/D_flipflop_16.srcs/sources_1/new/D_flipflop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_flipflop'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CU'
+ERROR: [VRFC 10-8820] cannot read from 'out' object 'y'; use 'buffer' or 'inout' instead [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd:55]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd:48]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Cu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Cu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Cu_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vamsi/OneDrive/Desktop/VHDL/D_flipflop_16/D_flipflop_16.srcs/sources_1/new/D_flipflop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_flipflop'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sources_1/new/CU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sim_1/new/Cu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Cu_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cu_tb_behav xil_defaultlib.Cu_tb -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cu_tb_behav xil_defaultlib.Cu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package std.env
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.D_flipflop [d_flipflop_default]
+Compiling architecture behavioral of entity xil_defaultlib.CU [cu_default]
+Compiling architecture behavioral of entity xil_defaultlib.cu_tb
+Built simulation snapshot Cu_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Cu_tb_behav -key {Behavioral:sim_1:Functional:Cu_tb} -tclbatch {Cu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Cu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 100 ns : File "C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/CU/CU.srcs/sim_1/new/Cu_tb.vhd" Line 61
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Cu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2949.781 ; gain = 7.457
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 19 01:49:17 2023...

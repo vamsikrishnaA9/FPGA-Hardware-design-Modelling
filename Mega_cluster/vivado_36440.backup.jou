@@ -1,0 +1,187 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Apr 26 18:28:13 2023
+# Process ID: 36440
+# Current directory: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent38872 C:\Users\vamsi\OneDrive\Desktop\VHDL\Project2\Mega_cluster\Mega_cluster.xpr
+# Log file: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster/vivado.log
+# Journal file: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster\vivado.jou
+# Running On: Vamsi, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16832 MB
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster/Mega_cluster.xpruupdate_compile_order -fileset sources_1launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+relaunch_sim
+update_compile_order -fileset sources_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+close_design
+launch_simulation
+launch_simulation
+source Mega_Cluster_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/new/Cluster_tb.vhd
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+export_ip_user_files -of_objects  [get_files C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster/Mega_cluster.srcs/sim_1/imports/new/Cluster_tb.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster/Mega_cluster.srcs/sim_1/imports/new/Cluster_tb.vhd
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+add_bp {C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster/Mega_cluster.srcs/sim_1/new/Mega_Cluster_tb.vhd} 59
+remove_bps -file {C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster/Mega_cluster.srcs/sim_1/new/Mega_Cluster_tb.vhd} -line 59
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+refresh_design
+refresh_design
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+add_bp {C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster/Mega_cluster.srcs/sources_1/new/Mega_Cluster.vhd} 91
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+remove_bps -file {C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster/Mega_cluster.srcs/sources_1/new/Mega_Cluster.vhd} -line 91
+add_bp {C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster/Mega_cluster.srcs/sources_1/new/Mega_Cluster.vhd} 91
+remove_bps -file {C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Mega_cluster/Mega_cluster.srcs/sources_1/new/Mega_Cluster.vhd} -line 91
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+refresh_design
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim
+launch_simulation
+source Mega_Cluster_tb.tcl

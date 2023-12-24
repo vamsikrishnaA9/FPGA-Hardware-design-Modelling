@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Mega_cluster.srcs/sources_1/imports/new/D_flipflop.vhd" \
+"../../../../Mega_cluster.srcs/sources_1/imports/new/CU.vhd" \
+"../../../../Mega_cluster.srcs/sources_1/imports/new/Cluster.vhd" \
+"../../../../Mega_cluster.srcs/sources_1/new/Mega_Cluster.vhd" \
+"../../../../Mega_cluster.srcs/sim_1/new/Mega_Cluster_tb.vhd" \
+
+# Do not sort compile order
+nosort

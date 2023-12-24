@@ -1,0 +1,82 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat May  6 01:13:33 2023
+# Process ID: 24444
+# Current directory: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27404 C:\Users\vamsi\OneDrive\Desktop\VHDL\Project2\Cluster\Cluster.xpr
+# Log file: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/vivado.log
+# Journal file: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster\vivado.jou
+# Running On: Vamsi, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16832 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1710.289 ; gain = 311.262
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: Cluster_tb
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 2662.648 ; gain = 412.797
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Cluster_tb' [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/new/Cluster_tb.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'Mini_Cluster' [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/new/Cluster.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'CU' [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/imports/new/CU.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'D_flipflop' [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/imports/new/D_flipflop.vhd:41]
+WARNING: [Synth 8-614] signal 'curr_val' is read in the process but is not in the sensitivity list [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/imports/new/D_flipflop.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'D_flipflop' (0#1) [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/imports/new/D_flipflop.vhd:41]
+INFO: [Synth 8-226] default block is never used [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/imports/new/CU.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'CU' (0#1) [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/imports/new/CU.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'Mini_Cluster' (0#1) [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/new/Cluster.vhd:161]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/new/Cluster_tb.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'Cluster_tb' (0#1) [C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/Cluster/Cluster.srcs/sources_1/new/Cluster_tb.vhd:38]
+WARNING: [Synth 8-7129] Port C[2] in module CU is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2735.973 ; gain = 486.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 2749.867 ; gain = 500.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 2749.867 ; gain = 500.016
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2749.867 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2857.926 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:32 . Memory (MB): peak = 2910.719 ; gain = 660.867
+13 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:51 . Memory (MB): peak = 2910.719 ; gain = 1168.398
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May  6 02:07:53 2023...

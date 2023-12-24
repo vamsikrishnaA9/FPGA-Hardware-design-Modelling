@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Mini_Cluster_behav" "xil_defaultlib.Mini_Cluster" -log "elaborate.log" 

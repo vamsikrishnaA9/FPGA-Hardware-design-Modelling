@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat May  6 02:12:44 2023
+# Process ID: 14820
+# Current directory: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/MegaCluster2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent42120 C:\Users\vamsi\OneDrive\Desktop\VHDL\Project2\MegaCluster2\MegaCluster2.xpr
+# Log file: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/MegaCluster2/vivado.log
+# Journal file: C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/MegaCluster2\vivado.jou
+# Running On: Vamsi, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16832 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vamsi/OneDrive/Desktop/VHDL/Project2/MegaCluster2/MegaCluster2.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source Mega_Cluster_tb.tcl
+close_sim

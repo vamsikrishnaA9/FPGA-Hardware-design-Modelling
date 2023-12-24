@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Cluster.srcs/sources_1/imports/new/D_flipflop.vhd" \
+"../../../../Cluster.srcs/sources_1/imports/new/CU.vhd" \
+"../../../../Cluster.srcs/sources_1/new/Cluster.vhd" \
+"../../../../Cluster.srcs/sources_1/new/Cluster_tb.vhd" \
+
+# Do not sort compile order
+nosort

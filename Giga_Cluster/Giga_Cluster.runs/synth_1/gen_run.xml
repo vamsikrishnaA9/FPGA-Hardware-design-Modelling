@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xazu3eg-sfvc784-1Q-q" LaunchTime="1683410450" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Giga_Cluster.dcp">
+  <File Type="PA-TCL" Name="Giga_Cluster.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Giga_Cluster_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Giga_Cluster_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Giga_Cluster.vds"/>
+  <File Type="RDS-UTIL" Name="Giga_Cluster_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Giga_Cluster_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Giga_Cluster.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Giga_Cluster_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Giga_Cluster_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/D_flipflop.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Mega_cluster/Mega_cluster.srcs/sources_1/imports/new/D_flipflop.vhd"/>
+        <Attr Name="ImportTime" Val="1680990761"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/CU.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Mega_cluster/Mega_cluster.srcs/sources_1/imports/new/CU.vhd"/>
+        <Attr Name="ImportTime" Val="1681777753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Cluster.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Mega_cluster/Mega_cluster.srcs/sources_1/imports/new/Cluster.vhd"/>
+        <Attr Name="ImportTime" Val="1682540727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Mega_Cluster.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Mega_cluster/Mega_cluster.srcs/sources_1/new/Mega_Cluster.vhd"/>
+        <Attr Name="ImportTime" Val="1682809050"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project2/MegaCluster2/MegaCluster2.srcs/sources_1/new/MegaCluster2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MegaCluster2/MegaCluster2.srcs/sources_1/new/MegaCluster2.vhd"/>
+        <Attr Name="ImportTime" Val="1682889151"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project2/MegaCluster3/MegaCluster3.srcs/sources_1/new/MegaCluster3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MegaCluster3/MegaCluster3.srcs/sources_1/new/MegaCluster3.vhd"/>
+        <Attr Name="ImportTime" Val="1682894981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project2/MEgaCluster4/MegaCluster4.srcs/sources_1/new/MegaCluster4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MEgaCluster4/MegaCluster4.srcs/sources_1/new/MegaCluster4.vhd"/>
+        <Attr Name="ImportTime" Val="1682897112"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Giga_Cluster.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Giga_Cluster"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Giga_Cluster.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
